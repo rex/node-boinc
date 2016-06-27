@@ -1,0 +1,30 @@
+{
+  "name": "boinc",
+  "version": "0.1.0",
+  "description": "Client to access statistics for BOINC-enabled projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Tests coming soon!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rex/node-boinc.git"
+  },
+  "author": "Pierce Moore <me@prex.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rex/node-boinc/issues"
+  },
+  "homepage": "https://github.com/rex/node-boinc#readme",
+  "dependencies": {
+    "request-promise": "^3.0.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
